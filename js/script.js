@@ -148,8 +148,7 @@ function getSocialsText() {
 
 function getCareerText() {
   return `<h2>Sobre minha carreira:<br></h2>
-      Atualmente, trabalho como Customer Support Engineer Intern na Cloudwalk Inc.!<br>
-      Praticamente, estou vivendo um sonho, na empresa dos sonhos!<3
+      Atualmente, estou em busca de um estágio na área da tecnologia! Muito ansiosa para crescer tanto profissionalmente quanto pessoalmente.
       `;
 }
 
