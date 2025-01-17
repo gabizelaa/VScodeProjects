@@ -10,7 +10,7 @@ document
 
 const commandMap = {
   ping: getPongFunction,
-  sobre: getAboutMeText,
+  about: getAboutMeText,
   pets: getPetsText,
   projects: getProjectsText,
   skills: getHabilitiesText,
