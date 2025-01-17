@@ -161,7 +161,7 @@ function getHelpText() {
   return `
       projects ----------- meus projetos<br>
       skills ------------- principais habilidades<br>
-      career ----------- experiência profissional<br>
+      career ------------- experiência profissional<br>
       studies ------------ formação acadêmica<br>
       about -------------- sobre mim<br>
       pets --------------- meus bebês<br>
