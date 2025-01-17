@@ -121,9 +121,6 @@ function getHabilitiesText() {
       cloud ------------------------- AWS<br>
       tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
       language ---------------------- inglês fluente<br>
-      tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
-      language ---------------------- inglês fluente<br>
-      cloud ------------------------- AWS<br>
       `;
 }
 
@@ -141,7 +138,7 @@ function getSocialsText() {
       <h2>Minhas redes sociais:<br></h2>
       &lt;github&gt; -------------- <a href="github.com/gabizelaa" target="_blank">github.com/gabizelaa</a><br>
       &lt;instagram&gt; ----------- <a href="instagram.com/gabibmartinz" target="_blank">instagram.com/gabibmartinz</a><br>
-      &lt;linkedin&gt; ------------ <a href="linkedin.com/gabriela-b-martins" target="_blank">linkedin.com/gabriela-b-martins</a><br>
+      &lt;linkedin&gt; ------------ <a href="linkedin.com/in/gabriela-b-martins" target="_blank">linkedin.com/in/gabriela-b-martins</a><br>
       `;
 }
 
@@ -167,9 +164,6 @@ function getHelpText() {
       career ----------- experiência profissional<br>
       studies ------------ formação acadêmica<br>
       about -------------- sobre mim<br>
-      carreira ----------- experiência profissional<br>
-      estudos ------------ formação acadêmica<br>
-      sobre -------------- sobre mim<br>
       pets --------------- meus bebês<br>
       social ------------- minhas redes sociais<br>
       playlist ----------- um pouco do meu gosto musical<br>
