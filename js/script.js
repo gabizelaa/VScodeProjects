@@ -10,7 +10,7 @@ document
 
 const commandMap = {
   ping: getPongFunction,
-  about: getAboutMeText,
+  sobre: getAboutMeText,
   pets: getPetsText,
   projects: getProjectsText,
   skills: getHabilitiesText,
@@ -118,9 +118,15 @@ function getHabilitiesText() {
       frontend ---------------------- HTML, CSS, Bootstrap, JavaScript e React<br>
       frameworks -------------------- Maven e Spring <br>
       database ---------------------- OracleSQL, PostgreSQL, MySQL e SQLite<br>
+<<<<<<< HEAD
       cloud ------------------------- AWS<br>
       tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
       language ---------------------- inglês fluente<br>
+=======
+      tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
+      language ---------------------- inglês fluente<br>
+      cloud ------------------------- AWS<br>
+>>>>>>> 2293885e65e09d877cb4a68d84e54a67a2b6bea7
       `;
 }
 
@@ -161,9 +167,15 @@ function getHelpText() {
   return `
       projects ----------- meus projetos<br>
       skills ------------- principais habilidades<br>
+<<<<<<< HEAD
       career ----------- experiência profissional<br>
       studies ------------ formação acadêmica<br>
       about -------------- sobre mim<br>
+=======
+      carreira ----------- experiência profissional<br>
+      estudos ------------ formação acadêmica<br>
+      sobre -------------- sobre mim<br>
+>>>>>>> 2293885e65e09d877cb4a68d84e54a67a2b6bea7
       pets --------------- meus bebês<br>
       social ------------- minhas redes sociais<br>
       playlist ----------- um pouco do meu gosto musical<br>
