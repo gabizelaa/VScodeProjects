@@ -10,7 +10,7 @@ const logoASCII = `
 ░ ░   ░   ░   ▒    ░    ░  ▒ ░░ ░ ░ ░ ░   ░     ░ ░    ░   ▒   
      ░       ░  ░ ░       ░    ░ ░       ░  ░    ░  ░     ░  ░
                        ░     ░                                
-                                                                                                                                                                                                                               
+                                                                                                                                                                                                                              
 `;
 
 const logoContainer = document.getElementById("logo");

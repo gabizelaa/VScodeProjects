@@ -33,6 +33,7 @@ body {
   overflow-y: auto;
   white-space: pre-wrap;
   font-size: 1.1rem;
+  width: 40vw;
 }
 
 #input {

@@ -8,16 +8,15 @@ document
     }
   });
 
-// Map commands to their corresponding functions
 const commandMap = {
   ping: getPongFunction,
   about: getAboutMeText,
   pets: getPetsText,
-  projetos: getProjectsText,
+  projects: getProjectsText,
   skills: getHabilitiesText,
-  estudos: getStudiesText,
+  studies: getStudiesText,
   social: getSocialsText,
-  carreira: getCareerText,
+  career: getCareerText,
   playlist: getPlaylistText,
   help: getHelpText,
   clear: clearTerminal,
@@ -41,12 +40,10 @@ function handleCommand(input) {
   output.scrollTop = output.scrollHeight; //Automatic scrolling
 }
 
-// Clear terminal
 function clearTerminal() {
   document.getElementById("output").textContent = "";
 }
 
-// Ping Pong
 var pongAudio = new Audio("./assets/sounds/pong.wav");
 
 function getPongFunction() {
@@ -61,17 +58,15 @@ function playPongAudio() {
   return pongAudio.play();
 }
 
-// Functions
 function getAboutMeText() {
   return `
-      <h2>Alguns tópicos sobre mim!</h2>
-      > tenho <strong>19 anos</strong> e sou uma sagitariana de 2004.<br>
-      > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br>
-      > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br>
-      > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br>
-      > meu primeiro contato com programação foi com <strong>Python</strong>, porém, acabei seguindo para o desenvolvimento web com <strong>HTML/CSS e JavaScript.</strong><br>
-      > quando no ensino médio, eu gostava de dar aula de física e matemática aos meus colegas após o horário de aula...<br>
-      
+      <h2>Alguns tópicos sobre mim!</h2><hr>
+      > tenho <strong>20 anos</strong> e sou sagitariana.<br><hr>
+      > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br><hr>
+      > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br><hr>
+      > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br><hr>
+      > quando no ensino médio, eu gostava de dar aula de física e matemática aos meus colegas após o horário de aula...<br><hr>
+      > tenho uma paixão enorme por games, isso é indiscutível!<br><hr>
       `;
 }
 
@@ -108,9 +103,9 @@ function getProjectsText() {
   return `
       <h2>Alguns dos meus projetos:</h2><br>
       <strong>&lt;Portfolio Terminal&gt;</strong> ----------- <a href="https://github.com/gabizelaa/portfolio-terminal" target="_blank">gabizelaa/portfolio-terminal</a><br>
+      <strong>&lt;Organo&gt;</strong> ----------------------- <a href="https://github.com/gabizelaa/react-organo" target="_blank">gabizelaa/react-organo</a><br>
       <strong>&lt;Landing Page&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/landing-page-fs" target="_blank">gabizelaa/landing-page-fs</a><br>
       <strong>&lt;FinTech Salt&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/fiap-fintech" target="_blank">gabizelaa/fiap-fintech</a><br>
-      <strong>&lt;YourAge Android&gt;</strong> -------------- <a href="https://github.com/gabizelaa/android-yourage" target="_blank">gabizelaa/android-yourage</a><br>
       <strong>&lt;Cafeteria Serenatto&gt;</strong> ---------- <a href="https://github.com/gabizelaa/serenatto" target="_blank">gabizelaa/serenatto</a><br>
       <strong>&lt;WhatsApp Bot&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/whatsapp-bot" target="_blank">gabizelaa/whatsapp-bot</a><br>
       `;
@@ -119,23 +114,22 @@ function getProjectsText() {
 function getHabilitiesText() {
   return `
       <h2>Aqui vão algumas das minhas <strong>Hard Skills</strong></h2>
-      linguagens ---------------------- Java, Python e Kotlin<br>
-      frameworks ---------------------- Maven, Spring e Jetpack Compose<br>
-      desenvolvimento Web ------------- HTML, CSS, Bootstrap e JavaScript<br>
-      banco de Dados ------------------ OracleSQL, PostgreSQL e MySQL<br>
-      IDEs ---------------------------- VScode, IntelliJ, PyCharm e Figma<br>
-      ferramentas de versionamento ---- Git e Github<br>
-      metodologias Ágeis -------------- Scrum e Kanban<br>
-      idiomas ------------------------- inglês fluente
+      backend ----------------------- Java, Python e NodeJS<br>
+      frontend ---------------------- HTML, CSS, Bootstrap, JavaScript e React<br>
+      frameworks -------------------- Maven e Spring <br>
+      database ---------------------- OracleSQL, PostgreSQL, MySQL e SQLite<br>
+      cloud ------------------------- AWS<br>
+      tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
+      language ---------------------- inglês fluente<br>
       `;
 }
 
 function getStudiesText() {
   return `
       <h2>Um pouco sobre minha formação acadêmica:</h2>
-      Esta é minha primeira graduação da vida, já estou em meu terceiro semestre em Análise e Desenvolvimento de Sistemas pela <strong><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></strong><br>
-      Também ando fazendo alguns cursos e bootcamps paralelos pela <a href="https://www.alura.com.br/" target="_blank">Alura</a> e <a href="https://www.dio.me/" target="_blank">DIO</a>.(◠‿◠✿)<br>
-      Tive aulas de inglês desde os meus 11 anos pela Yázigi, portanto, hoje em dia sou fluente no idioma.
+      Esta é minha primeira graduação, estou no 4° semestre em Análise e Desenvolvimento de Sistemas pela <strong><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></strong><br>
+      Também, ando fazendo alguns cursos e bootcamps paralelos pela <a href="https://www.alura.com.br/" target="_blank">Alura</a> e <a href="https://www.portalhashtag.com/" target="_blank">Hashtag Treinamentos</a>.(◠‿◠✿)<br>
+      
       `;
 }
 
@@ -150,8 +144,9 @@ function getSocialsText() {
 
 function getCareerText() {
   return `<h2>Sobre minha carreira:<br></h2>
-      Atualmente, estou em busca de uma vaga de estágio para desenvolver minhas habilidades e avançar profissionalmente.<br>
-      Esta é a minha primeira chance de ter uma experiência no mercado de trabalho <3
+      Atualmente, estou em busca de um estágio na área da tecnologia! Muito ansiosa para crescer tanto profissionalmente quanto pessoalmente.
+
+      Possuo experiência em atendimento ao cliente e uso de CRM!
       `;
 }
 
@@ -164,10 +159,10 @@ function getPlaylistText() {
 
 function getHelpText() {
   return `
-      projetos ----------- meus projetos<br>
+      projects ----------- meus projetos<br>
       skills ------------- principais habilidades<br>
-      carreira ----------- experiência profissional<br>
-      estudos ------------ formação acadêmica<br>
+      career ----------- experiência profissional<br>
+      studies ------------ formação acadêmica<br>
       about -------------- sobre mim<br>
       pets --------------- meus bebês<br>
       social ------------- minhas redes sociais<br>
@@ -178,7 +173,6 @@ function getHelpText() {
       `;
 }
 
-// Date and time on screen
 function updateDateTime() {
   const now = new Date();
   const date = now.toLocaleDateString("pt-BR");
