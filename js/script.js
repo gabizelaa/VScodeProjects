@@ -169,7 +169,7 @@ function getHelpText() {
       about -------------- sobre mim<br>
       carreira ----------- experiência profissional<br>
       estudos ------------ formação acadêmica<br>
-      sobre -------------- sobre mim<br>>>>>>>> 2293885e65e09d877cb4a68d84e54a67a2b6bea7
+      sobre -------------- sobre mim<br>
       pets --------------- meus bebês<br>
       social ------------- minhas redes sociais<br>
       playlist ----------- um pouco do meu gosto musical<br>
