@@ -65,13 +65,12 @@ function playPongAudio() {
 function getAboutMeText() {
   return `
       <h2>Alguns tópicos sobre mim!</h2><hr>
-      > tenho <strong>19 anos</strong> e sou uma sagitariana.<br><hr>
+      > tenho <strong>20 anos</strong> e sou sagitariana.<br><hr>
       > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br><hr>
       > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br><hr>
       > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br><hr>
-      > aprendi lógica de programação um pouco com <strong>Python</strong> e muuuito com <strong>Java</strong>, porém, agora estou interessada em me aprofundar em desenvolvimento web com <strong>React.</strong><br><hr>
       > quando no ensino médio, eu gostava de dar aula de física e matemática aos meus colegas após o horário de aula...<br><hr>
-      > recentemente, me tornei estagiária da CloudWalk.<br>
+      > tenho uma paixão enorme por games, isso é indiscutível!<br><hr>
       `;
 }
 
@@ -125,6 +124,7 @@ function getHabilitiesText() {
       database ---------------------- OracleSQL, PostgreSQL, MySQL e SQLite<br>
       tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
       language ---------------------- inglês fluente<br>
+      cloud ------------------------- AWS<br>
       `;
 }
 
@@ -149,6 +149,8 @@ function getSocialsText() {
 function getCareerText() {
   return `<h2>Sobre minha carreira:<br></h2>
       Atualmente, estou em busca de um estágio na área da tecnologia! Muito ansiosa para crescer tanto profissionalmente quanto pessoalmente.
+
+      Possuo experiência em atendimento ao cliente e uso de CRM!
       `;
 }
 
@@ -175,7 +177,6 @@ function getHelpText() {
       `;
 }
 
-// Date and time on screen
 function updateDateTime() {
   const now = new Date();
   const date = now.toLocaleDateString("pt-BR");
